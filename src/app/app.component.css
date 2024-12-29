@@ -1,0 +1,44 @@
+.green {
+  color: green;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  width: 100px;
+}
+
+.table-row {
+  text-align: center;
+}
+
+.task6 {
+  display: flex;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+}
+
+.box {
+  border: 1px solid black;
+  min-height: 50px;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls {
+  margin: 0 10px;
+}

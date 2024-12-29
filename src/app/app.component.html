@@ -1,0 +1,127 @@
+<h2>Úloha 1</h2>
+<div>
+  <table>
+    <tr>
+      <th></th>
+      <th>Pondelok</th>
+      <th>Utorok</th>
+      <th>Streda</th>
+      <th>Štvrtok</th>
+      <th>Piatok</th>
+      <th>Týždeň</th>
+    </tr>
+    <tr class="table-row">
+      <td>Šišky</td>
+      <td>1</td>
+      <td>3</td>
+      <td>4</td>
+      <td>0</td>
+      <td>2</td>
+      <td>10</td>
+    </tr>
+    <tr class="table-row">
+      <td>Vafle</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0</td>
+      <td>3</td>
+      <td>2</td>
+      <td>8</td>
+    </tr>
+  </table>
+  <p>30 vafle ... 8 (1. týždeň) + 8 (2. týždeň) + 8 (3. týždeň) + 6 (po-štv)</p>
+  <p>? šišiek ... 10 (1. týždeň) + 10 (2. týždeň) + 10 (3. týždeň) + 8 (po-štv) = <span class="green">38 šišiek</span></p>
+</div>
+
+<h2>Úloha 2</h2>
+<img src="/task2.png" alt="task2" width="100%">
+
+<h2>Úloha 3</h2>
+<p>Ak ste mali deliteľnosť, tak 36 vieme rozdeliť na 9 * 4, ktoré majú znaky deliteľnosti:</p>
+<p>4 – Číslo je deliteľné 4, ak posledné dvojčíslie je deliteľné 4.</p>
+<p>9 - Číslo je deliteľné 9, ak jeho ciferný súčet je deliteľný 9.</p>
+<p>Začneme 4. Najmenšie dvojčísla deliteľné 4 sú 04, 08, 12... kedže máme palindrom, tak chceme, aby posledné číslo bolo najmenšie, čiže skúsime 12.</p>
+<p>2 1 _ 1 2</p>
+<p>Následne skúsime 9. Najmenšie číslo deliteľné 9 je 9. Aby sme dostali súčet 9, dosadíme 3 (2 + 1 + 3 + 1 + 2)</p>
+<p><span class="green">2 1 3 1 2</span> : 36 = 592</p>
+
+<p>Ak ste nemali deliteľnosť, tak dlhší proces. Vieme, že číslo musí byť párne, kedže aj 36 je párne a najmenšie párne číslo je 2.</p>
+<p>2 _ _ _ 2</p>
+<p>Následne skúšame delenie od najmenšej kombinácie hore.</p>
+<p> 2 <span class="red">1 1 1</span> 2;&nbsp;&nbsp;&nbsp;2 <span class="red">1 2 1</span> 2;&nbsp;&nbsp;&nbsp;2 <span class="green">1 3 1</span> 2 </p>
+<p>Pre zaujímavosť zvyšné palindromi:</p>
+<p>21312 23832 25452 27072 27972 29592 40104 42624 44244 46764 48384 61416 63036 63936 65556 67176 69696 80208 82728 84348 86868 88488</p>
+<h2>Úloha 4</h2>
+<p>Spolu 70 tulipánov.</p>
+<p>Šárka 0 žlté, 5/9 svojich tulipánov červené. => Šárka má kvety v pomere 5 : 4 (červené : iné)</p>
+<p>Ľuboš 0 červené, 2/17 svojich tulipánov žlté. => Ľuboš má kvety v pomere 2 : 15 (žlté : iné)</p>
+<p>Kedže kvety musia byť celé, tak Šárka a Ľuboš jednotlivo zasadili násobky svojich pomerov. Potrebujeme zistiť v akom pomere. Začneme Ľubošom kedže má väčší pomer (17).</p>
+<p>1 * 17 = 17, zvyšok do 70 = 53; skúsime či je 53 násobkom 9 bez zvyšku => 53 / 9 = <span class="red">5,889</span></p>
+<p>2 * 17 = 34, zvyšok do 70 = 36; skúsime či je 36 násobkom 9 bez zvyšku => 36 / 9 = <span class="green">4</span></p>
+<p>3 * 17 = 51, zvyšok do 70 = 19; skúsime či je 19 násobkom 9 bez zvyšku => 19 / 9 = <span class="red">2,111</span></p>
+<p>Takže vieme, že Šárka zasadila 36 kvetov a Ľuboš 34 => 70 = 36 + 34</p>
+<p>36 rozdelíme na 4:5 => 36/9 = 4, takže 36 rozdelíme na 16:20</p>
+<p>34 rozdelíme v pomere 2:15 => 34/17 = 2, takže 34 rozdelíme na 4:30</p>
+<p>Podľa toho dostaneme že:</p>
+<p>Červené = 20</p>
+<p>Žlté = 4</p>
+<p>Iné od Šárky = 16</p>
+<p>Iné od Ľuboša = 30</p>
+<p class="green">Iné celkovo = 46</p>
+
+
+<h2>Úloha 5</h2>
+<p>1. Ja bývam v Hruštíne.</p>
+<p>2. Ja nebývam v Očovej.</p>
+<p>3. Ty nebývaš v Jasenove.</p>
+<p>Z Očovej vraví pravdu.</p>
+<p>2. určite hovorí pravdu, kedže ak by klamala, tak by bývala v Očovej, a tá neklame.</p>
+<p>Ak by 1. povedala pravdu, tak by bývala v Hruštíne a 2. by musela bývať v Jasenove, čiže 3. by musela klamať a bývať v Očovej, no to čo hovorí je pravda.</p>
+<p class="green">Ak by 3. povedala pravdu, tak by bývala v Očovej a 2. by musela bývať v Hruštíne, čiže by klamala 1., ktorá býva v Jasenove.</p>
+
+<h2>Úloha 6</h2>
+<div class="task6">
+  <div class="grid">
+    <div class="row" *ngFor="let row of objects">
+      <div class="box" *ngFor="let box of row" (click)="addMark(box)">
+        <div *ngIf="box.type === markTypes.TRIANGLE">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M23.677 18.52c.914 1.523-.183 3.472-1.967 3.472h-19.414c-1.784 0-2.881-1.949-1.967-3.472l9.709-16.18c.891-1.483 3.041-1.48 3.93 0l9.709 16.18z"/></svg>
+        </div>
+        <div *ngIf="box.type === markTypes.CIRCLE">
+          <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 1c6.071 0 11 4.929 11 11s-4.929 11-11 11-11-4.929-11-11 4.929-11 11-11z"/></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="controls">
+    <div>
+      <button (click)="changeMarkType(markTypes.CIRCLE)" [disabled]="currentMarkCount[markTypes.CIRCLE] === 0">Cirlce</button>
+    </div>
+    <div>
+      <button (click)="changeMarkType(markTypes.TRIANGLE)" [disabled]="currentMarkCount[markTypes.TRIANGLE] === 0">Triangle</button>
+    </div>
+    <div>
+      <button (click)="changeMarkType(markTypes.EMPTY)">Odstráň</button>
+    </div>
+    <div>
+      Circles left: {{currentMarkCount[markTypes.CIRCLE]}}
+      Triangles left: {{currentMarkCount[markTypes.TRIANGLE]}}
+    </div>
+    <div>
+      <button (click)="startSimulation()" [disabled]="simulationStatus === simulationStatuses.RUNNING
+        || currentMarkCount[markTypes.CIRCLE] !== 0
+        || currentMarkCount[markTypes.TRIANGLE] !== 0">Play</button>
+      <button (click)="stopSimulation()" [disabled]="simulationStatus === simulationStatuses.STOPPED">Stop</button>
+      <button (click)="reset()">Reset</button>
+    </div>
+    <div>
+      Current step: {{currentStep}}
+    </div>
+  </div>
+</div>
+<p>Riešenie a)</p>
+<img src="/task6-1.png" alt="task6-1">
+<p>Riešenie b)</p>
+<img src="/task6-2.png" alt="task6-1">
+<p>Riešenie c)</p>
+<img src="/task6-3.png" alt="task6-1">
